@@ -1,0 +1,208 @@
+body {
+    background: #0e101c;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(79, 98, 148);
+}
+
+h2 {
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+h3 {
+    color: white;
+    white-space: pre-wrap;
+}
+
+a {
+    text-align: right;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.form {
+    background: #0e101c;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+p {
+    color: #bf1650;
+}
+
+p::before {
+    display: inline;
+    content: "⚠ ";
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+label {
+    line-height: 2;
+    text-align: center;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.label-form {
+    text-align: center;
+}
+
+select {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button,
+input[type="submit"] {
+    background: #ec5990;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+
+button {
+    display: block;
+    appearance: none;
+    border-radius: 4px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background: #bf1650;
+}
+
+input[type="button"]:active,
+input[type="submit"]:active {
+    transition: 0.3s all;
+    transform: translateY(3px);
+    border: 1px solid transparent;
+    opacity: 0.8;
+}
+
+input:disabled {
+    opacity: 0.4;
+}
+
+input[type="button"]:hover {
+    transition: 0.3s all;
+}
+
+.resultado {
+    color: #ec5990;
+}
+
+.centered-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: white;
+}
+
+
+tr:nth-child(even) {
+    color: #f2f2f2;
+}
+
+.App {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+@media (max-width: 360px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    a {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .form {
+        max-width: 100%;
+    }
+
+    label {
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    select {
+        font-size: 16px;
+    }
+
+    button,
+    input[type="submit"] {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
